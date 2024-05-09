@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./Css/estilos.css">
+    <title>Carrito de Compras</title>
+     
+</head>
+<body onload="calcularTotal()">
+    <div class="contenedor">
+
+        <header class="encabezado">
+            <div>
+                <img src="./Assets/Img/front cover sale.png" alt="sales">
+            </div>
+            <div class="compras">                
+                <ul>                     
+                    <li class="submenu">
+                        <img id="imagen-carrito" src="./Assets/Img/cart.png" img-carrito>
+                        <div class="total">
+                            <div>
+                                <h4>Total: </h4>
+                            </div>
+                            <div>
+                                <h5>$<span></span></h5>
+                            </div>        
+                        </div>
+                        <div class="contenedor-carrito ocultar">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th>Cantidad</th>                                        
+                                    </tr>
+                                </thead>
+                                                                
+                            </table>
+                                <a href="#" id="vaciar-carrito" class="boton">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>                    
+        </header>
+        
+        <main class="contenido-articulos">
+            <h2>Electronic items</h2>
+            <article class="entrada">
+                <img src="./Assets/Img/blender.png" alt="blender">
+                <div class="contenido">
+                    <h3>Licuadora  Oster</h3>
+                    <p><span>1000 Watts blender</span></p>
+                    <p>Precio: $<span>25</span></p>
+                    <a href="#" class="boton" id="1">Agregar Al Carrito</a>
+                </div>              
+            </article>
+            <article class="entrada">
+                <img src="./Assets/Img/cellphone.png" alt="cellphone">
+                <div class="contenido">
+                    <h3>Apple Mobile</h3>
+                    <p><span>Apple S3</span></p>
+                    <p>Precio: $<span>300</span></p>
+                    <a href="#" class="boton" id="2">Agregar Al Carrito</a>
+                </div>              
+            </article>
+            <article class="entrada">
+                <img src="./Assets/Img/lamps.png" alt="lamps">
+                <div class="contenido">
+                    <h3>Genius Lamps</h3>
+                    <p><span>200 watts power</span></p>
+                    <p><p>Precio: $<span>40</span></p>
+                    <a href="#" class="boton" id="3">Agregar Al Carrito</a>
+                </div>              
+            </article>
+            <article class="entrada">
+                <img src="./Assets/Img/laptop.png" alt="laptop">
+                <div class="contenido">
+                    <h3>Apple MacBook</h3>
+                    <p><span>MacBook Air</span></p>
+                    <p><p>Precio: $<span>1000</span></p>
+                    <a href="#" class="boton" id="4">Agregar Al Carrito</a>
+                </div>              
+            </article>
+            <article class="entrada">
+                <img src="./Assets/Img/mouse.png" alt="mouse">
+                <div class="contenido">
+                    <h3>Apple Mouse</h3>
+                    <p><span>Apple Ak1</span></p>
+                    <p>Precio: $<span>35</span></p>
+                    <a href="#" class="boton" id="5">Agregar Al Carrito</a>
+                </div>              
+            </article>
+            <article class="entrada">
+                <img src="./Assets/Img/photographycamera.png" alt="photographycamera">
+                <div class="contenido">
+                    <h3>Nikon</h3>
+                    <p><span>Nikon D780</span></p>
+                    <p>Precio: $<span>500</span></p>
+                    <a href="#" class="boton" id="6">Agregar Al Carrito</a>
+                </div>              
+            </article>
+            <article class="entrada">
+                <img src="./Assets/Img/radio.png" alt="radio">
+                <div class="contenido">
+                    <h3>Sony Radio</h3>
+                    <p><span>battery radio</span></p>
+                    <p>Precio: $<span>75</span></p>
+                    <a href="#" class="boton" id="7">Agregar Al Carrito</a>
+                </div>              
+            </article>
+            <article class="entrada">
+                <img src="./Assets/Img/tv.png" alt="TV">
+                <div class="contenido">
+                    <h3>Goldstar TV</h3>
+                    <p><span>60 inch tv</span></p>
+                    <p>Precio: $<span>750</span></p>
+                    <a href="#" class="boton" id="8">Agregar Al Carrito</a>
+                </div>              
+            </article>
+            <article class="entrada">
+                <img src="./Assets/Img/electricfan.png" alt="electricfan">
+                <div class="contenido">
+                    <h3>Casio Electric Fan</h3>
+                    <p><span>Ceiling Electric Fan</span></p>
+                    <p>Precio: $<span>750</span></p>
+                    <a href="#" class="boton" id="9">Agregar Al Carrito</a>
+                </div>              
+            </article>
+        </main>
+    </div>    
+    
+    <script src="./Js/main.js"></script>
+</body>
+</html>
